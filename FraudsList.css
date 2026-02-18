@@ -1,0 +1,55 @@
+  /* style.css */
+  h1 
+  {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    border: 10px ridge silver;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+  } 
+
+  html{
+    background: url(https://t3.ftcdn.net/jpg/01/80/46/56/360_F_180465639_UAJJt5COMPSSDuMS8w0NuHFqF7wvteCE.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.center
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+#Frauds {
+  border: 55px ridge orangered;
+}
+
+#myVideo 
+{
+  display: none; 
+} 
+        
+#playButton 
+{
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
+#playButton img 
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
